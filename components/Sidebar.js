@@ -9,7 +9,7 @@ import { auth, db } from "../firebase";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollection } from "react-firebase-hooks/firestore";
 import { collection } from "@firebase/firestore";
-import Chat from "./chat";
+import Chat from "./Chat";
 
 function Sidebar(){
     const [user] = useAuthState(auth);
